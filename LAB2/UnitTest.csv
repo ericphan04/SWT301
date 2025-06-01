@@ -1,0 +1,6 @@
+Test Case,Username,Password,Email,Expected,Actual,Result,Reason
+Test Case 1,john123,pass123,john@example.com,true,true,PASSED,
+Test Case 2,,pass123,john@example.com,false,false,FAILED,Username is empty
+Test Case 3,alice,short,alice@mail.com,false,false,FAILED,Password must be longer than 6 characters
+Test Case 4,bob123,password,bobmail.com,false,false,FAILED,Invalid email format
+Test Case 5,carol,password,carol@domain.com,true,true,PASSED,
