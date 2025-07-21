@@ -1,9 +1,9 @@
-package org.example;
+package tests;
 
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.openqa.selenium.WebDriver;
-import org.example.utils.DriverFactory;
+import utils.DriverFactory;
 
 public abstract class BaseTest {
     protected static WebDriver driver;
@@ -20,4 +20,4 @@ public abstract class BaseTest {
             driver.quit();
         }
     }
-} 
+}
